@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline0;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+            box-shadow: 1px 6px 14px 1px black;
+;
+        }
+
+        article{
+            background: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer >p{
+            margin: 0px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Sport | Politica | Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Noticias sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, accusamus ad tempore odio eos deleniti quos porro modi, pariatur dolorem fuga. Reprehenderit esse labore quo itaque, veritatis doloribus aspernatur accusantium.</p>
+                <aside>
+                    <p>Artigo feito por gari</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em Garito</p>
+    </footer>
+</body>
+</html>

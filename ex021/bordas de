@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bordas decoradas</title>
+	</head>
+		<style>
+			h1{
+				border: 10px solid black;
+				padding: 2px;
+				border-image: url("th.jpeg")67 repeat;
+				box-shadow: rgba(200,200,200) black;
+			}
+		</style>
+	<body>
+		<h1>Bordas arredondadas</h1>
+	</body>
+</html>

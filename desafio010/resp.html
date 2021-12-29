@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsividade</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+
+        :root{
+            --cor1: rgba(40, 169, 255, 0.507);
+            --cor2: rgba(24, 123, 189, 0.507);
+            --cor3: rgba(11, 70, 109, 0.507);
+        }
+
+        main{
+            background-color: rgba(0, 255, 234, 0.507);
+            border-radius: 10px;
+            max-width: 900px;
+            min-width: 300px;
+            margin: auto;
+            padding: 10px;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.418);
+        }
+
+        main img{
+            width: 100%;
+        }
+
+        div.video{
+            background-color: var(--cor1);
+            position: relative;
+            padding-bottom: 58.26%;
+            width: 100%;
+        }
+
+        div.video > iframe{
+            position: absolute;
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+        
+        div.rock{
+            position: relative;
+            background-color: var(--cor2);
+            padding: 10px -20px;
+            padding: 20px;
+            padding-bottom: 56.25%;
+            margin-top: 10px;
+        }
+
+        div.rock > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+
+        div.resp{
+            position: relative;
+            width: 100%;
+            padding-bottom: 58.25%;
+            margin-top: 25px;
+        }
+
+        div.resp > iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        div.mas{
+            position: relative;
+            background-color: var(--cor3);
+            padding: 0px -20px 30px -20px;
+            padding: 20px;
+            padding-bottom: 56.25%;
+        }
+
+        div.mas > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>reponsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores ducimus sunt soluta expedita dolorem assumenda voluptas dolor, numquam at, cum totam voluptatibus ipsa impedit vero? Veniam minus corporis nesciunt!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perferendis illum vitae rem eum, delectus at corporis eos reiciendis repellat beatae itaque, adipisci sed. Consequatur, eveniet. Non ullam magni rem.
+        </p>
+        <picture>
+            <source media="(max-width: 620px)"; srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="imagem da irina">
+        </picture>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/u9NE0jInb_c" iframe>
+        </div> 
+
+        <div class="rock">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GykTLqODQuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorum neque at eveniet debitis, dicta culpa quod itaque doloremque impedit veritatis ullam libero obcaecati odio a sapiente quidem dolores officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sunt placeat amet, exercitationem reprehenderit fugit nemo ullam dolorum quae beatae similique facere a tenetur, alias quibusdam quos, sit accusamus enim!</p>
+
+        <div class="rock">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GykTLqODQuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="resp">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H91DhKPjhPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <di class="mas">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GykTLqODQuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+</body>
+</html>

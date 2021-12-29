@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elementos</title>
+    <style>
+        /*selectores personalizados
+            #id
+            .class
+            :pseudo class
+            ::pseudo elemento
+            >children 
+        */
+        body{
+            font-family: sans-serif;
+            
+        }
+        a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+        a:hover{
+            color: brown;
+            text-decoration: underline;
+        }
+        a:visited{
+            color: cadetblue;
+        }
+        a:active{
+            color: burlywood;
+        }
+        .especial{
+            background-color: rgb(250, 189, 189);
+        }
+
+        .especial::after{
+            content: "✓";
+        }
+    </style>
+</head>
+<body>
+    <h1>links personalizados</h1>
+    <ul>
+        <li><a href="http://www.youtube.com/cursoemvideo">curso em video</a></li>
+        <li><a href="" class="especial">repositorio github</a></li>
+        <li><a href="" class="especial">youtube</a></li>
+    </ul>
+</body>
+</html>
