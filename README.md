@@ -1,4 +1,4 @@
 # html-css
  curso de html e css
  
- estou aprendendo html e css
+ estou aprendendo a criar sites e agora vou gerenciar meu repositorio
