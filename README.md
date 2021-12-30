@@ -3,4 +3,4 @@
  
  estou aprendendo a criar sites e agora vou gerenciar meu repositorio
 
-<a href="C:\Users\pc\Documents\estudos\html-css\ex013\index.html">Acessar o exercicio</a>
+<a href="https://gariafonso.github.io/html-css/ex017/">Acessar o exercicio</a>
